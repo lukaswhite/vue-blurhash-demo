@@ -19,6 +19,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  base: "/vue-blurhash-demo",
   mode: "history",
   routes,
 });
